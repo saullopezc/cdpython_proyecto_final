@@ -1,0 +1,6 @@
+{
+    "mysql_hostname": "",
+    "postgresql_hostname": "",
+    "EC2_instance_id": "",
+    "KEY_PAIR": ""
+}
