@@ -6,7 +6,7 @@ Antes de comenzar, asegúrate de tener lo siguiente:
     Una cuenta de AWS con acceso a los servicios necesarios (EC2, RDS).
     Credenciales de AWS configuradas en tu entorno.
     Python y las bibliotecas necesarias instaladas (boto3, python-dotenv).
-    Docker y Docker Compose instalados en tu máquina local.
+    Instalar Docker y Docker Compose en el EC2.
 
 ### Configuración
 
