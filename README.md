@@ -1,30 +1,90 @@
-# Proyecto Final Ciencia de datos con Python
-## Requisitos
+# Proyecto Final: Postgrado en Análisis y Predicción de Datos
 
-Antes de comenzar, asegúrate de tener lo siguiente:
+## Ciencia de Datos en Python
 
-    Una cuenta de AWS con acceso a los servicios necesarios (EC2, RDS).
-    Credenciales de AWS configuradas en tu entorno.
-    Python y las bibliotecas necesarias instaladas (boto3, python-dotenv).
-    Instalar Docker y Docker Compose en el EC2.
+**Instructor:** Ing. Preng Biba Solares
 
-### Configuración
+**Estudiantes:**
+- Saul Alexander López Contreras | Carné: 24000138
+- Josias Emanuel Chocooj Azmitia | Carné: 24000705
+- Erick Manuel Andrade Zuñiga | Carné: 24000165
 
-    Clona este repositorio en tu máquina local.
-    Crea un archivo .env en el directorio raíz del proyecto y proporciona las variables de entorno necesarias, como las credenciales de AWS y las configuraciones de las bases de datos.
-    Ejecuta el script generar_infraestructura.py para crear y configurar los recursos de AWS necesarios.
-    Una vez que los recursos estén en funcionamiento, obtén la dirección IP pública de la instancia EC2.
-    Accede a Jupyter Notebook utilizando el enlace proporcionado en los registros de Docker Compose.
+**Sección:** U
 
-### Uso
+**Ciudad de Guatemala, 12 de abril 2024**
 
-    Utiliza los cuadernos de Jupyter Notebook para explorar, analizar y visualizar los datos.
-    Ejecuta las consultas SQL para realizar transformaciones y obtener información de los datos.
-    Guarda tus resultados y visualizaciones en el directorio correspondiente.
+## Índice
 
-### Recursos Adicionales
+1. [Introducción](#introducción)
+2. [Objetivos](#objetivos)
+   - [Objetivo General](#objetivo-general)
+   - [Objetivos Específicos](#objetivos-específicos)
+3. [Contenido](#contenido)
+   - [Infraestructura de AWS](#infraestructura-de-aws)
+   - [Base de Datos Transaccional](#base-de-datos-transaccional)
+   - [Data Warehouse](#data-warehouse)
+   - [Proceso ETL](#proceso-etl)
+   - [Visualización y Análisis](#visualización-y-análisis)
+   - [Código y Tecnología Utilizadas](#código-y-tecnología-utilizadas)
+   - [Cumplimiento de Requerimientos](#cumplimiento-de-requerimientos)
+   - [Preguntas de Negocio](#preguntas-de-negocio)
+4. [Conclusiones](#conclusiones)
+5. [Anexos](#anexos)
 
-    Documentación de AWS
-    Documentación de Boto3
-    Documentación de Docker Compose
-    Documentación de Jupyter Notebook
+## Introducción
+
+Como proyecto final del curso Ciencia de Datos en Python, se desarrolla el presente sistema de ingeniería de datos. Este consta de crear una infraestructura de base de datos transaccional, cargar datos de prueba y emplear una estructura de Datawarehouse para realizar análisis de datos del mismo y responder preguntas de negocio. Se utiliza Python en cada uno de estos pasos como principal sistema de programación.
+
+## Objetivos
+
+### Objetivo General
+
+- Desarrollar un sistema de ingeniería de datos que integre Python, SQL, y AWS para automatizar el flujo de datos desde la ingestión hasta el análisis y la visualización.
+
+### Objetivos Específicos
+
+- Implementar un sistema transaccional automatizado en AWS.
+- Crear y poblar una base de datos utilizando Python.
+- Diseñar y construir un data warehouse que responda a preguntas de negocio específicas.
+- Desarrollar un proceso ETL para integrar, transformar y cargar datos.
+- Realizar análisis de datos y visualización para responder a preguntas de negocio.
+
+## Contenido
+
+### Infraestructura de AWS
+
+Utilizado la infraestructura de capa gratuita de AWS, utilizando RDS para el uso de MySQL y Postgres, EC2, VPC y la respectiva configuración para únicamente utilizar los puertos asignados con credenciales previamente configuradas para acceder a recursos predefinidos.
+
+### Base de Datos Transaccional
+
+Diseñada para gestionar las operaciones diarias y facilitar la recolección de datos en tiempo real.
+
+### Data Warehouse
+
+Estructurado para apoyar el análisis de datos y la toma de decisiones, almacenando datos históricos estructurados de forma que faciliten la ejecución de consultas complejas y análisis multidimensionales.
+
+### Proceso ETL
+
+Implementado para extraer datos del sistema transaccional, transformarlos según los requerimientos del data warehouse y cargarlos en la estructura definida del data warehouse.
+
+### Visualización y Análisis
+
+Realizado utilizando herramientas como Pandas, NumPy, Matplotlib, y Seaborn en Python, para responder a las preguntas de negocio planteadas.
+
+### Código y Tecnología Utilizadas
+
+Se apoyó en una variedad de tecnologías y lenguajes de programación para construir un sistema de ingeniería de datos completo y robusto.
+
+### Cumplimiento de Requerimientos
+
+Cumplió con los siguientes requisitos técnicos y funcionales, incluyendo el uso de AWS para infraestructura y la separación de sistemas transaccionales y data warehouse.
+
+### Preguntas de Negocio
+
+Incluyeron preguntas sobre ventas por categoría, rendimiento de vendedores, y evolución del volumen de ventas.
+
+## Conclusiones
+
+El correcto desarrollo del proyecto responde a una secuencia lógica
+adecuada en la generación de cada una de sus partes, desde la
+infraestructura hasta el análisis de información.
