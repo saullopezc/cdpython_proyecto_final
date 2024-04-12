@@ -29,7 +29,6 @@
    - [Cumplimiento de Requerimientos](#cumplimiento-de-requerimientos)
    - [Preguntas de Negocio](#preguntas-de-negocio)
 4. [Conclusiones](#conclusiones)
-5. [Anexos](#anexos)
 
 ## Introducción
 
