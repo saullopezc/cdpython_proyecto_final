@@ -84,6 +84,5 @@ Incluyeron preguntas sobre ventas por categoría, rendimiento de vendedores, y e
 
 ## Conclusiones
 
-El correcto desarrollo del proyecto responde a una secuencia lógica
-adecuada en la generación de cada una de sus partes, desde la
-infraestructura hasta el análisis de información.
+* El proyecto de ingeniería de datos alcanzó con éxito sus objetivos, desarrollando un pipeline eficiente utilizando Python, SQL, y AWS que mejoró significativamente la capacidad de análisis y toma de decisiones basadas en datos dentro de la organización. 
+* Las soluciones adoptadas han enriquecido el conocimiento técnico del equipo y han establecido una base sólida para futuras mejoras y escalabilidad del sistema. Esto reitera la importancia de la adaptabilidad y el aprendizaje continuo en el campo de la ciencia de datos y la ingeniería de sistemas.
