@@ -13,6 +13,8 @@
 
 **Ciudad de Guatemala, 12 de abril 2024**
 
+Link al video ([Click acá](https://youtu.be/Iaku2AE-c74))
+
 ## Índice
 
 1. [Introducción](#introducción)
